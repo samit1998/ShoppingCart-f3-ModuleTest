@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div>MeShop.</div>
+    <div id="links">
+        <div id="logout">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></div>
+        <div id="shop">Shop</div>
+        <div>|</div>
+        <div id="name"></div>
+    </div>
+</header>
+<div id="container">
+  <div id="left">
+    <h1>My Cart</h1>
+    <div class="display-items">
+    </div>
+  </div>
+  <div id="right">
+    <h2>Checkout List</h2>
+    <div id="product-name">
+    </div>
+    <div id="total">
+      <div id="dollar"></div>
+      <div id="inr"></div>
+    </div>
+    <div id="check-out">
+      <input type="button" value="Proceed to Checkout" id="payBtn">
+    </div>
+  </div>
+</div>
+  <script src="scripts.js"></script>
+</body>
+</html>
