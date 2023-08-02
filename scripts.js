@@ -3,7 +3,7 @@ buttons[0].addEventListener("click",()=>{
     window.location.href="/Login/"
 })
 buttons[1].addEventListener("click",()=>{
-    window.location.href=`/${repositoryName}/cart.html`;
+    window.location.href="/Signup/";
 })
 
 function onload(){
