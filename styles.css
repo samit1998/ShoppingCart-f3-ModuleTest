@@ -9,20 +9,12 @@ header{
   justify-content: space-between;
   padding:20px;
   font-size: larger;
-  position:fixed;
-  width:98%;
 }
-
-#links{
-  display: flex;
-}
-
-#links div{
+#links a{
   color:#A9A9A9;
   margin-left: 1rem;
   cursor: pointer;
 }
-
 h1{
   font-size: 50px;
   font-weight: 500;
@@ -30,7 +22,6 @@ h1{
 #one{
   width: 30%;
   float: left;
-  margin-top: 2rem;
   margin-left:1rem
 }
 #one p{
