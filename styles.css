@@ -28,7 +28,8 @@ h1{
 #one{
   width: 30%;
   float: left;
-  margin-left:1rem
+  margin-top:1rem;
+  margin-left:1rem;
 }
 #one p{
   font-size: 1.5rem;
